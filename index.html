@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <h1>Tic Tac Toe</h1>
+        
+        <div class="turn-row">
+            <div class="turn-item"><h3>Turn:</h3></div>
+            <div class="turn-item"><img id="turn" src="X.png" alt="turn"></div>
+        </div>
+        
+        <div class="row">
+            <div class="square">
+            </div>
+            <div class="square middle-column">
+            </div>             
+            <div class="square">
+            </div>             
+        </div>
+        
+        <div class="row">
+            <div class="square middle-row">
+            </div>
+            <div class="square middle-column middle-row">
+            </div>             
+            <div class="square middle-row">
+            </div>             
+        </div>
+        
+        <div class="row">
+            <div class="square">
+            </div>
+            <div class="square middle-column">
+            </div>             
+            <div class="square">
+            </div>             
+        </div>
+        
+        <div class="score-row">
+            <div class="score-item">
+                <img src="X.png" alt="X icon"> <p>wins: <span id="xScore">0</span></p>
+            </div>
+            <div class="score-item">
+                <img src="O.png" alt="X icon"> <p>wins: <span id="oScore">0</span></p>
+            </div>
+            <div class="score-item">
+                <p>Draws: <span id="draws">0</span></p>
+            </div>
+        </div>
+        
+        <script src="index.js" type="text/javascript"></script>
+    </body>
+    
+</html>
